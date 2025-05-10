@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+  
+    nav ul li {
+      border: none;
+    }
+  
+    nav ul li a {
+      padding: 1rem 2rem;
+    }
+  
+    #menu {
+      display: none;
+    }
+  
+    main {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 1rem;
+    }
+  
+    section:nth-child(3) {
+      grid-column: span 2;
+    }
+  }
+  
