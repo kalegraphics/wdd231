@@ -1,0 +1,28 @@
+{
+  "familyName": "Johnson",
+  "dateMovedIn": "2024-08-01",
+  "numberOfPeople": 4,
+  "visitedByBishopric": true,
+  "familyMembers": [
+    {
+      "name": "Michael Johnson",
+      "gender": "Male",
+      "birthdate": "1985-06-15"
+    },
+    {
+      "name": "Sarah Johnson",
+      "gender": "Female",
+      "birthdate": "1987-09-22"
+    },
+    {
+      "name": "Emma Johnson",
+      "gender": "Female",
+      "birthdate": "2012-03-10"
+    },
+    {
+      "name": "Ethan Johnson",
+      "gender": "Male",
+      "birthdate": "2015-11-05"
+    }
+  ]
+}

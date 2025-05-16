@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:description" content="This website will serve as a resource hub for businesses in the city of Timbuktu. The site will provide information on local events, host networking opportunities, create business directories, and encourage local shopping. It aims to promote local economic growth, support local businesses, and foster a sense of community between the businesses.">
+    <meta property="og:url" content="https://kalegraphics.github.io/wdd231/">
+    <meta property="og:image" content="https://kalegraphics.github.io/wdd231/images/ade.jpg" />
+    <title>Chamber of Commerce</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/members.js"></script>
+    <script src="data/members.json"></script>
+    <link rel="icon" href="favicon2.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="images/chamb.png" alt="ade" class="profile-img">
+        <h1>Timbuktu Chamber of Commerce</h1>
+       
+    </header>
+     <button id="menu-toggle">☰ Menu</button>
+
+  <nav id="main-nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Directory</a></li>
+      <li><a href="#">Join</a></li>
+      <li><a href="#">Discovery</a></li>
+    </ul>
+  </nav>
+   <script src="scripts/script.js"></script>
+
+  <script src="scripts/members.js"></script>
+
+    <main>
+       <div class="hero-container">
+  <div class="hero-scroll">
+    <img src="images/slide/1.jpg" class="hero-img" />
+    <img src="images/slide/2.jpg" class="hero-img" />
+    <img src="images/slide/3.jpg" class="hero-img" />
+    <img src="images/slide/4.jpg" class="hero-img" />
+    <img src="images/slide/5.jpg" class="hero-img" />
+    <!-- Add more images here -->
+  </div>
+</div>
+        <h2>Home</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Event</h3>
+                <ul>
+                    <li>•</li>
+                    <li>•</li>
+                    <li>•</li>
+                </ul>
+            </div>
+            <div class="cardn">
+                <h3>Current Weather</h3>
+                <div class="icon">
+                <img src="images/weather.png" alt="weather icon" class="profile-img">
+                <p class="forecast"><strong>75°</strong>F</p>
+                <div class="temp">
+                <p>Partly Cloudy</p>
+                <p>High: 85°</p>
+                <p>Low: 52°</p>
+                <p>Humidity: 34%</p>
+                <p>Sunrise: 7:30am</p>
+                <p>Sunset: 9:59pm</p>
+                </div>
+                </div>
+            </div>
+            <div class="cardn">
+                <h3> Weather Forcast</h3>
+                 <div class="forecast">
+                <p><strong>Today:</strong> 90°F</p>
+                <p><strong>Wednesday:</strong> 89°F</p>
+                <p><strong>Thursday:</strong> 68°F</p>
+      </div>
+            </div>
+        </div>
+<div class="card-container">
+<div class="cardb">   
+ <h3>Chamber Members</h3>
+
+<!-- View Toggle Buttons -->
+<div class="view-toggle">
+  <button onclick="setView('grid')">Grid View</button>
+  <button onclick="setView('list')">List View</button>
+</div>
+
+<!-- Members Container -->
+<div id="members-container" class="grid-view">
+</div>
+</div>
+</div>
+    </main>
+
+    <footer>
+  <div class="footer-left">
+    <strong>Timbuktu Chamber of Commerce</strong><br>
+    10 Rue De La Paix<br>
+    Timbuktu, Mali 999<br>
+    info@timbuktucc.org<br>
+    (223) 555-2300
+  </div>
+
+  <div class="footer-center">
+    <img src="images/youtube-icon.png" alt="YouTube">
+    <img src="images/twitter-icon.png" alt="Twitter">
+    <img src="images/linkedin-icon.png" alt="LinkedIn">
+  </div>
+
+  <div class="footer-right">
+    <p>WDD231 Class Project</p>
+    <p>Adeshina Kalejaiye</p>
+    <p>&copy; <span id="year"></span> Timbuktu Chamber of Commerce</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+  </div>
+</footer>
+
+    
+</body>
+</html>

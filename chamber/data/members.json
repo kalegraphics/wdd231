@@ -1,0 +1,65 @@
+[
+  {
+    "name": "TechNova",
+    "address": "123 Innovation Blvd",
+    "phone": "800-555-1010",
+    "website": "https://technova.com",
+    "image": "technova.png",
+    "membership": 3,
+    "tagline": "Innovate Your Future"
+  },
+  {
+    "name": "GreenScape",
+    "address": "456 Nature St",
+    "phone": "800-555-2020",
+    "website": "https://greenscape.org",
+    "image": "greenscape.png",
+    "membership": 2,
+    "tagline": "Greener Tomorrow"
+  },
+  {
+    "name": "BuildRight",
+    "address": "789 Construct Ave",
+    "phone": "800-555-3030",
+    "website": "https://buildright.biz",
+    "image": "buildright.png",
+    "membership": 1,
+    "tagline": "Building with Integrity"
+  },
+  {
+    "name": "EduFirst",
+    "address": "321 Learning Way",
+    "phone": "800-555-4040",
+    "website": "https://edufirst.edu",
+    "image": "edufirst.png",
+    "membership": 2,
+    "tagline": "Empowering Education"
+  },
+  {
+    "name": "HealthCore",
+    "address": "654 Wellness Rd",
+    "phone": "800-555-5050",
+    "website": "https://healthcore.health",
+    "image": "healthcore.png",
+    "membership": 3,
+    "tagline": "Your Health, Our Priority"
+  },
+  {
+    "name": "Artisan Brews",
+    "address": "147 Coffee Ln",
+    "phone": "800-555-6060",
+    "website": "https://artisanbrews.com",
+    "image": "artisanbrews.png",
+    "membership": 1,
+    "tagline": "Crafting Coffee Moments"
+  },
+  {
+    "name": "SafeNet Security",
+    "address": "852 Guard Blvd",
+    "phone": "800-555-7070",
+    "website": "https://safenetsecure.com",
+    "image": "safenet.png",
+    "membership": 2,
+    "tagline": "Security You Can Trust"
+  }
+]

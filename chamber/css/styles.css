@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #1f4e79;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+     flex-wrap: nowrap;       /* prevents line breaks */
+    overflow-x: auto;        /* adds horizontal scroll if needed */
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 0 1 700px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+.cardn {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 0 1 400px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+.cardb {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 0 1 1500px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.baobab-img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.certificate {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.filters button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+}
+
+.filters button:hover {
+    background-color: #444;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.course {
+    padding: 15px 20px;
+    background-color: #864c24;
+    color: white;
+    border-radius: 5px;
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+footer {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+}
+
+.flag {
+    width: 30px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.card h3 {
+    background-color: #154c79; /* deep blue */
+    color: white;
+    padding: 10px;
+    margin: -15px -15px 10px -15px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+.cardn h3 {
+    background-color: #154c79; /* deep blue */
+    color: white;
+    padding: 10px;
+    margin: -15px -15px 10px -15px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+.cardb h3 {
+    background-color: #154c79; /* deep blue */
+    color: white;
+    padding: 10px;
+    margin: -15px -15px 10px -15px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+.section-title {
+    background-color: #154c79; /* deep blue */
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 10px;
+}
+.filters {
+    display: flex;
+    justify-content: center;  /* centers the buttons horizontally */
+    gap: 10px;                 /* optional: adds space between buttons */
+    margin-bottom: 15px;       /* optional: space below the button row */
+}
+.temp {
+  font-size: 20px;
+}
+.icon {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 5px;
+     font-size: 30px;
+}
+.details p,
+.forecast p {
+  margin: 5px 0;
+  line-height: 1.8;
+  font-size: 26px;
+}
+
+.hero-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  border: 1px solid #ccc;
+}
+
+.hero-scroll {
+  display: inline-flex;
+}
+
+.hero-img {
+  height: 400px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+
+#menu-toggle {
+  font-size: 18px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+#main-nav {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  background-color: #1f4a6e;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+#main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#main-nav li {
+  padding: 12px 20px;
+  border-bottom: 1px solid #0e2f49;
+}
+
+#main-nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+#main-nav.expanded {
+  max-height: 300px; /* enough to show all items */
+}
+
