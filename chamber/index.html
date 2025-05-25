@@ -35,50 +35,60 @@
   <script src="scripts/members.js"></script>
 
     <main>
-       <div class="hero-container">
-  <div class="hero-scroll">
-    <img src="images/slide/1.jpg" class="hero-img" />
-    <img src="images/slide/2.jpg" class="hero-img" />
-    <img src="images/slide/3.jpg" class="hero-img" />
-    <img src="images/slide/4.jpg" class="hero-img" />
-    <img src="images/slide/5.jpg" class="hero-img" />
-    <!-- Add more images here -->
+        <!-- Hero Image -->
+<section class="hero">
+  <img src="images/hero.jpg" alt="Timbuktu Commerce Hero" class="hero-img">
+</section>
+  <section class="info-sections">
+  <!-- What We Do -->
+  <div class="what-we-do">
+    <h2>What We Do</h2>
+    <div class="what-we-do-top">
+      <ul>
+        <li><strong>Support</strong> local businesses</li>
+        <li><strong>Promote</strong> economic growth</li>
+        <li><strong>Connect</strong> entrepreneurs</li>
+        <li><strong>Advocate</strong> for the community</li>
+      </ul>
+      <img src="images/what we do.jpeg" alt="Chamber Activity" class="activity-img">
+    </div>
+    <p>
+    Founded with the vision of building a stronger, more connected business community, the Timbuktu Chamber of Commerce brings together local businesses, nonprofits, and civic leaders. We advocate for policies that benefit our members, provide resources to help businesses grow, and organize events that promote networking and professional development.
+
+Our organization is built on the values of integrity, inclusiveness, innovation, and collaboration.  </p>
   </div>
+
+  <!-- Testimonials -->
+  <div class="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial-card">
+      <img src="images/user1.jpg" alt="User 1">
+      <p>"Joining the chamber has been transformative for my small business."</p>
+    </div>
+    <div class="testimonial-card">
+      <img src="images/user2.jpg" alt="User 2">
+      <p>"Their support helped me launch my business in Timbuktu with confidence."</p>
+    </div>
+  </div>
+</section>
+
+<section id="weather">
+ <div class="card-container">
+<div class="cardb">
+    <h3>Weather in Timbuktu, Mali</h3>
+    <p><center>Current Temperature: <span id="current-temp">Loading...</span></center></p>
+    <p><center>Conditions: <span id="current-desc">Loading...</span></center></p>
+
+    <h4><center>3-Day Forecast</center></h4>
+    <div id="forecast"><center>Loading forecast...</center></div>
 </div>
-        <h2>Home</h2>
-        <div class="card-container">
-            <div class="card">
-                <h3>Event</h3>
-                <ul>
-                    <li>•</li>
-                    <li>•</li>
-                    <li>•</li>
-                </ul>
-            </div>
-            <div class="cardn">
-                <h3>Current Weather</h3>
-                <div class="icon">
-                <img src="images/weather.png" alt="weather icon" class="profile-img">
-                <p class="forecast"><strong>75°</strong>F</p>
-                <div class="temp">
-                <p>Partly Cloudy</p>
-                <p>High: 85°</p>
-                <p>Low: 52°</p>
-                <p>Humidity: 34%</p>
-                <p>Sunrise: 7:30am</p>
-                <p>Sunset: 9:59pm</p>
-                </div>
-                </div>
-            </div>
-            <div class="cardn">
-                <h3> Weather Forcast</h3>
-                 <div class="forecast">
-                <p><strong>Today:</strong> 90°F</p>
-                <p><strong>Wednesday:</strong> 89°F</p>
-                <p><strong>Thursday:</strong> 68°F</p>
-      </div>
-            </div>
-        </div>
+ </div>
+  </section>
+
+  <!-- Link your JavaScript file -->
+  <script src="weather.js"></script>
+
+        
 <div class="card-container">
 <div class="cardb">   
  <h3>Chamber Members</h3>
