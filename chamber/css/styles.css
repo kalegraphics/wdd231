@@ -351,3 +351,120 @@ footer {
   object-fit: cover;
   display: block;
 }
+
+
+
+
+
+.form-columns {
+  display: flex;
+  gap: 3rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.left-column,
+.right-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.left-column label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.right-column {
+  max-width: 250px;
+}
+
+.membership-levels {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.membership-level h3 {
+  margin: 0 0 0.3rem 0;
+  font-weight: 600;
+}
+
+.membership-level a {
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.membership-level a:hover,
+.membership-level a:focus {
+  text-decoration: underline;
+}
+
+input[type="submit"] {
+  margin-top: 2rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.left-column input[type="text"],
+.left-column input[type="email"],
+.left-column input[type="tel"],
+.left-column textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+.form-div {
+  flex: 1;
+  min-width: 100px;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+@keyframes slideInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.membership-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  flex: 1 1 45%;
+  background-color: #f9f9f9;
+
+  /* Animation */
+  animation-name: slideInUp;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  opacity: 0; /* start hidden */
+}
+
+@media (max-width: 600px) {
+  .membership-cards {
+    flex-direction: column;
+  }
+}
