@@ -1,0 +1,62 @@
+[
+  {
+    "title": "City Central Park",
+    "image": "images/1.webp",
+    "address": "10 Park Avenue, Downtown",
+    "description": "A serene green space perfect for relaxation, picnics, and family time."
+  },
+  {
+    "title": "Heritage Museum",
+    "image": "images/2.webp",
+    "address": "45 History Lane, Old Town",
+    "description": "Discover the cultural and historical heritage of the region in this well-curated museum."
+  },
+  {
+    "title": "Sunrise Mall",
+    "image": "images/3.webp",
+    "address": "88 Market Street, Commercial District",
+    "description": "A popular shopping center with a wide range of stores, eateries, and entertainment options."
+  },
+  {
+    "title": "Greenhill Zoo",
+    "image": "images/4.webp",
+    "address": "120 Safari Road, Outskirts",
+    "description": "Home to hundreds of animal species, providing education and fun for the whole family."
+  },
+  {
+    "title": "Riverside Walkway",
+    "image": "images/5.webp",
+    "address": "Riverbank Road, East Side",
+    "description": "A beautiful path along the river with scenic views, ideal for morning runs and evening strolls."
+  },
+  {
+    "title": "Skyline Tower",
+    "image": "images/6.webp",
+    "address": "1 Tower Plaza, Business Zone",
+    "description": "The tallest building in the city offering panoramic views and a rooftop restaurant."
+  },
+  {
+    "title": "City Art Gallery",
+    "image": "images/7.webp",
+    "address": "34 Brushstroke Blvd, Art District",
+    "description": "Exhibits local and international artwork, including modern, abstract, and traditional pieces."
+  },
+  {
+    "title": "Freedom Monument",
+    "image": "images/8.webp",
+    "address": "Freedom Square, Central District",
+    "description": "An iconic structure honoring the city’s history and the spirit of its people."
+  },
+  {
+    "title": "Sunset Beach",
+    "image": "images/9.webp",
+    "address": "Beachfront Avenue, West Side",
+    "description": "A relaxing spot with golden sands, great views, and water activities."
+  },
+  {
+    "title": "Tech Innovation Hub",
+    "image": "images/10.webp",
+    "address": "90 Silicon Crescent, Innovation Park",
+    "description": "A center for startups and tech events, fostering entrepreneurship and digital solutions."
+  }
+]

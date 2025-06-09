@@ -1,0 +1,84 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Modern Duplex in Lekki",
+      "price": "₦75,000,000",
+      "location": "Lekki Phase 1, Lagos",
+      "image": "image/property1.jpeg",
+      "description": "Smart-controlled lighting and security, 4 bedrooms, 5 baths."
+    },
+    {
+      "id": 2,
+      "title": "Luxury Apartment in VI",
+      "price": "₦120,000,000",
+      "location": "Victoria Island, Lagos",
+      "image": "image/property2.jpg",
+      "description": "3-bedroom apartment with ocean views, gym, and rooftop pool."
+    },
+    {
+      "id": 3,
+      "title": "Affordable Smart Bungalow",
+      "price": "₦30,000,000",
+      "location": "Ajah, Lagos",
+      "image": "image/property3.jpeg",
+      "description": "2-bedroom bungalow with smart locks and solar backup."
+    },
+    {
+      "id": 4,
+      "title": "Eco-Friendly Mini Estate",
+      "price": "₦250,000,000",
+      "location": "Ibeju Lekki, Lagos",
+      "image": "image/property4.jpg",
+      "description": "5 detached units, solar-powered, and water purification system."
+    },
+    {
+      "id": 5,
+      "title": "Smart Penthouse",
+      "price": "₦180,000,000",
+      "location": "Ikoyi, Lagos",
+      "image": "image/property5.jpeg",
+      "description": "Fully automated home system, elevator access, and city skyline view."
+    },
+    {
+      "id": 6,
+      "title": "Compact Tech Apartment",
+      "price": "₦25,000,000",
+      "location": "Yaba, Lagos",
+      "image": "image/property6.jpg",
+      "description": "1-bedroom smart apartment with voice-controlled systems."
+    },
+    {
+      "id": 7,
+      "title": "Family Home with Smart HVAC",
+      "price": "₦60,000,000",
+      "location": "Surulere, Lagos",
+      "image": "image/property7.jpeg",
+      "description": "3-bedroom home with smart climate control and garden."
+    },
+    {
+      "id": 8,
+      "title": "Luxury Terrace",
+      "price": "₦95,000,000",
+      "location": "Ikeja GRA, Lagos",
+      "image": "image/property8.jpg",
+      "description": "Spacious 4-bedroom terrace with integrated automation."
+    },
+    {
+      "id": 9,
+      "title": "Digital Loft Studio",
+      "price": "₦18,000,000",
+      "location": "Ogba, Lagos",
+      "image": "image/property9.jpg",
+      "description": "Techie-friendly studio with touch interfaces and surveillance system."
+    },
+    {
+      "id": 10,
+      "title": "Waterfront Smart Villa",
+      "price": "₦300,000,000",
+      "location": "Banana Island, Lagos",
+      "image": "image/property10.jpg",
+      "description": "Private dock, biometric access, 6 beds, and smart control."
+    }
+  ]
+}

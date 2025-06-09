@@ -1,53 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact Smart Property Showcase to inquire about listings or services.">
-  <meta name="author" content="Your Name">
-  <meta property="og:title" content="Contact - Smart Property Showcase">
-  <meta property="og:image" content="images/og-image.jpg">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="favicon/favicon.ico">
-  <title>Contact | Smart Property Showcase</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us - Smart Property Showcase</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Open+Sans&display=swap" rel="stylesheet" />
 </head>
 <body>
   <header>
-    <h1>Contact Us</h1>
+    <h1>Reach out to us</h1>
+    <p class="subtitle"><center>Fill the form below</center></p>
     <nav>
-      <button id="menu-button">☰</button>
-      <ul id="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="properties.html">Properties</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+      <a href="home.html">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="contact.html" class="active">Contact</a>
     </nav>
   </header>
+
   <main>
-    <section>
-      <h2>Send Us a Message</h2>
-      <form action="form-action.html" method="get" id="contact-form">
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" required>
+    <section class="contact-section">
+      <h2>Contact Us</h2>
+      <p>We’d love to hear from you! Please fill out the form below and we’ll get back to you shortly.</p>
+      <form id="contactForm" action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required />
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" required>
+        <input type="email" id="email" name="email" placeholder="Your email address" required />
 
         <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+        <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
 
         <button type="submit">Send Message</button>
       </form>
     </section>
   </main>
+
   <footer>
-    <p>&copy; 2025 Smart Property Showcase</p>
-    <a href="attributions.html">Attributions</a> |
-    <a href="https://your-video-link.com">Demo Video</a>
+    <p>© 2025 Smart Property Showcase. All rights reserved.</p>
+    <p>Site created by Adeshina Kalejaiye BYU Idao Wdd231</p>
   </footer>
-  <script type="module" src="js/navToggle.js"></script>
 </body>
 </html>

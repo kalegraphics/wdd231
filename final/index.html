@@ -2,65 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Smart Property Showcase - Explore top real estate listings with detailed information and beautiful homes." />
-  <meta name="author" content="Your Name" />
-  <meta property="og:title" content="Smart Property Showcase" />
-  <meta property="og:description" content="Discover your dream home from a curated collection of properties with photos, prices, and detailed info." />
-  <meta property="og:image" content="images/hero-house1.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Property Showcase</title>
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="favicon/favicon.ico" />
-  <title>Smart Property Showcase - Home</title>
 </head>
 <body>
   <header>
     <h1>Smart Property Showcase</h1>
     <nav>
-      <button id="menu-button" aria-expanded="false" aria-controls="nav-links">☰ Menu</button>
-      <ul id="nav-links" role="menu">
-        <li><a href="index.html" role="menuitem">Home</a></li>
-        <li><a href="properties.html" role="menuitem">Properties</a></li>
-        <li><a href="contact.html" role="menuitem">Contact</a></li>
-      </ul>
+      <a href="home.html">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <main>
-    <section aria-label="About Smart Property Showcase" class="about-section" style="margin-bottom: 2rem;">
-      <h2>Welcome to Smart Property Showcase</h2>
-      <p>
-        Discover the best real estate listings curated just for you. Whether you're looking for a modern apartment,
-        a cozy family home, or a luxurious villa, we provide detailed information, stunning photos, and pricing
-        to help you make the perfect choice.
-      </p>
-      <p>
-        Our platform features a dynamic selection of properties updated regularly to bring you fresh options.
-        Explore our featured homes below and start your journey to finding your dream property today.
-      </p>
-    </section>
+  <section class="hero">
+    <img src="image/hero.jpg" alt="Smart Property Hero" />
+  </section>
 
-    <section aria-label="Featured Properties Gallery" class="hero-gallery" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-bottom: 3rem;">
-      <img src="images/hero-house1.jpg" alt="Modern glass-fronted family home" loading="lazy" width="300" height="200" style="border-radius: 8px; object-fit: cover;" />
-      <img src="images/hero-house2.jpg" alt="Cozy suburban house with garden" loading="lazy" width="300" height="200" style="border-radius: 8px; object-fit: cover;" />
-      <img src="images/hero-house3.jpg" alt="Luxury villa with pool at sunset" loading="lazy" width="300" height="200" style="border-radius: 8px; object-fit: cover;" />
-      <img src="images/hero-house4.jpg" alt="Downtown high-rise apartment exterior" loading="lazy" width="300" height="200" style="border-radius: 8px; object-fit: cover;" />
-      <img src="images/hero-house5.jpg" alt="Rustic country home surrounded by trees" loading="lazy" width="300" height="200" style="border-radius: 8px; object-fit: cover;" />
-    </section>
+  <section class="intro">
+    <h2>Welcome to Smart Property Showcase</h2>
+    <p>Discover the future of real estate in Nigeria with our handpicked smart homes, eco-friendly estates, and luxurious apartments — all designed with technology and comfort in mind.</p>
+  </section>
 
-    <!-- Existing property list container for dynamic JS population -->
-    <section id="property-list" aria-label="Property Listings">
-      <!-- Property cards dynamically inserted here by JS -->
-    </section>
-  </main>
+  <section class="property-grid"></section>
 
   <footer>
-    <p>&copy; 2025 Smart Property Showcase</p>
-    <a href="attributions.html">Attributions</a> |
-    <a href="https://your-video-link.com">Demo Video</a>
+    <p>&copy; 2025 Smart Property Showcase | Created by Adeshina Kalejaiye | BYU–Idaho WDD231</p>
   </footer>
 
-  <script type="module" src="js/navToggle.js"></script>
-  <script type="module" src="js/propertyData.js"></script>
-  <script type="module" src="js/propertyDisplay.js"></script>
+  <script src="home.js"></script>
 </body>
 </html>

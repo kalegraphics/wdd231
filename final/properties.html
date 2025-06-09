@@ -1,53 +1,33 @@
-<!-- properties.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Browse our list of featured real estate properties in Nigeria.">
-  <meta name="author" content="Your Name">
-  <meta property="og:title" content="Property Listings - Smart Property Showcase">
-  <meta property="og:image" content="images/og-image.jpg">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="favicon/favicon.ico">
-  <title>Properties | Smart Property Showcase</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Properties - Smart Property Showcase</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
-    <h1>Available Properties</h1>
+    <h1>Smart Property Showcase</h1>
     <nav>
-      <button id="menu-button">☰</button>
-      <ul id="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="properties.html">Properties</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+      <a href="home.html">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
-  <main>
-    <section>
-      <h2>Featured Listings</h2>
-      <div id="property-list" class="property-grid">
-        <!-- JavaScript will inject property cards here -->
-      </div>
-    </section>
 
-    <!-- Modal -->
-    <div id="property-modal" class="modal hidden">
-      <div class="modal-content">
-        <span class="close-button">&times;</span>
-        <div id="modal-body">
-          <!-- JavaScript will populate this -->
-        </div>
-      </div>
-    </div>
-  </main>
+  <section class="intro">
+    <h2>Explore All Properties</h2>
+    <p>Browse our curated list of 10 smart properties designed for modern living in Nigeria.</p>
+  </section>
+
+  <section class="property-grid"></section>
+
   <footer>
-    <p>&copy; 2025 Smart Property Showcase</p>
-    <a href="attributions.html">Attributions</a> |
-    <a href="https://your-video-link.com">Demo Video</a>
+    <p>&copy; 2025 Smart Property Showcase | Created by Adeshina Kalejaiye | BYU–Idaho WDD231</p>
   </footer>
-  <script type="module" src="js/fetchProperties.js"></script>
-  <script type="module" src="js/navToggle.js"></script>
+
+  <script src="js/properties.js"></script>
+  <script src="data/data.json"></script>
 </body>
 </html>

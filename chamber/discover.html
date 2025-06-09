@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="scripts/members.js"></script>
     <script src="data/members.json"></script>
+    <script src="scripts/js-discovery.js"></script>
+
     <link rel="icon" href="favicon2.ico">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -34,67 +36,18 @@
 
   <script src="scripts/members.js"></script>
 
-    <main>
-       <div class="hero-container">
-  <div class="hero-scroll">
-    <img src="images/slide/1.jpg" class="hero-img" />
-    <img src="images/slide/2.jpg" class="hero-img" />
-    <img src="images/slide/3.jpg" class="hero-img" />
-    <img src="images/slide/4.jpg" class="hero-img" />
-    <img src="images/slide/5.jpg" class="hero-img" />
-    <!-- Add more images here -->
-  </div>
-</div>
-        <h2>Home</h2>
-        <div class="card-container">
-            <div class="card">
-                <h3>Event</h3>
-                <ul>
-                    <li>•</li>
-                    <li>•</li>
-                    <li>•</li>
-                </ul>
-            </div>
-            <div class="cardn">
-                <h3>Current Weather</h3>
-                <div class="icon">
-                <img src="images/weather.png" alt="weather icon" class="profile-img">
-                <p class="forecast"><strong>75°</strong>F</p>
-                <div class="temp">
-                <p>Partly Cloudy</p>
-                <p>High: 85°</p>
-                <p>Low: 52°</p>
-                <p>Humidity: 34%</p>
-                <p>Sunrise: 7:30am</p>
-                <p>Sunset: 9:59pm</p>
-                </div>
-                </div>
-            </div>
-            <div class="cardn">
-                <h3> Weather Forcast</h3>
-                 <div class="forecast">
-                <p><strong>Today:</strong> 90°F</p>
-                <p><strong>Wednesday:</strong> 89°F</p>
-                <p><strong>Thursday:</strong> 68°F</p>
-      </div>
-            </div>
-        </div>
-<div class="card-container">
-<div class="cardb">   
- <h3>Chamber Members</h3>
+  <main class="discover-main">
+  <div id="visitor-message"></div>
+  <div id="cards-container"></div>
+  <section class="visitor-message" id="visit-message">
+    <!-- Visitor message will be inserted here via JavaScript -->
+  </section>
 
-<!-- View Toggle Buttons -->
-<div class="view-toggle">
-  <button onclick="setView('grid')">Grid View</button>
-  <button onclick="setView('list')">List View</button>
-</div>
+  <section class="cards-grid">
+    <!-- 8 cards generated from JSON -->
+  </section>
+</main>
 
-<!-- Members Container -->
-<div id="members-container" class="grid-view">
-</div>
-</div>
-</div>
-    </main>
 
     <footer>
   <div class="footer-left">
